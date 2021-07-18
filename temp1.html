@@ -1,0 +1,1163 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+    .navbar .nav-item a {
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .navbar .nav-item a:hover {
+        background-color: red;
+        color: white;
+    }
+    
+    a {
+        z-index: 1;
+        color: black;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    
+    .navbar {
+        margin-bottom: 0px;
+    }
+    
+    .dropdown-menu .dropdown-submenu .dropdown-menu a {
+        position: left;
+        color: black;
+    }
+    
+    .dropdown .dropdown-menu a {
+        position: left;
+        color: black;
+    }
+    
+    ul.dropdown-menu li>ul.dropdown-menu {
+        left: 100%;
+        top: 0;
+        text-align: left;
+    }
+    
+    ul.dropdown-menu li:hover ul.dropdown-menu,
+    ul.dropdown-menu li:focus ul.dropdown-menu {
+        display: block;
+        text-align: left;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: rgb(64, 64, 64);
+    }
+    
+    .btco-menu .active a:focus,
+    .btco-menu li a:focus,
+    .navbar>.show>a:focus {
+        background: transparent;
+        outline: 0;
+    }
+    
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+    }
+    
+    #sub-dropdown-menu-menu {
+        display: none;
+        position: absolute;
+    }
+    
+    #sub-dropdown-menu a,
+    .dropdown-menu a {
+        color: black;
+    }
+</style>
+
+<body>
+
+    <div class="container-fluid " style="background-color:ECEFF1 ">
+
+      
+
+    <div id="navbar a"></div>
+    <ul class="navbar nav text-danger fixed-top" style="background-color: 000033; height: 90px; ">
+        <li>
+            <img src="c3.jpg" height="70px" width="70px" class="rounded-circle">
+        </li>
+        <li class="nav-item ">
+
+            <a href="" class="nav-link text-light active" data-toggle="tab" data-target="#t1">HOME</a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link text-light" data-toggle="tab" data-target="#t2">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link text-light" data-toggle="tab" data-target="#t3">SERVICES</a>
+        </li>
+        <li id="course" class="nav-item dropdown">
+            <a href="" class="nav-link text-light dropdown-toggle" data-toggle="dropdown"> COURSES</a>
+            <ul class="dropdown-menu">
+                <li id="sub-dropdown" class="dropdown"><a href="#" class="dropdown-item dropdown-toggle" data-toggle="dropdown">BASIC Programing</a>
+                    <ul id="sub-dropdown-menu" class="dropdown-menu">
+                        <li><a href="" class="dropdown-item"> C Programming</a></li>
+                        <li><a href="" class="dropdown-item">Advance C++</a></li>
+                        <li><a href="" class="dropdown-item">DATA Structure</a></li>
+                        <li><a href="" class="dropdown-item">PHP</a></li>
+                        <li><a href="" class="dropdown-item">HADOOP</a></li>
+
+                    </ul>
+                </li>
+                <li id="sub-dropdown" class="dropdown"><a href="#" class="dropdown-item dropdown-toggle" data-toggle="dropdown">JAVA Programing</a>
+                    <ul id="sub-dropdown-menu" class="dropdown-menu">
+                        <li><a href="" class="dropdown-item"> Corporate JAVA(MVC)</a></li>
+                        <li><a href="" class="dropdown-item">CORE JAVA</a></li>
+                        <li><a href="" class="dropdown-item">Advance JAVA</a></li>
+                        <li><a href="" class="dropdown-item">Spring-MVC</a></li>
+                        <li><a href="" class="dropdown-item">Spring BOOT</a></li>
+                        <li><a href="" class="dropdown-item">Hibernate</a></li>
+                        <li><a href="" class="dropdown-item">Struts</a></li>
+
+                    </ul>
+                </li>
+                <li id="sub-dropdown" class="dropdown"><a href="#" class="dropdown-item dropdown-toggle" data-toggle="dropdown">Web Development</a>
+                    <ul id="sub-dropdown-menu" class="dropdown-menu">
+                        <li><a href="" class="dropdown-item"> PHP</a></li>
+                        <li><a href="" class="dropdown-item">Core/Advance PHP</a></li>
+                        <li><a href="" class="dropdown-item">Wordpress</a></li>
+                        <li><a href="" class="dropdown-item">Codeigniter</a></li>
+                        <li><a href="" class="dropdown-item">Laravel</a></li>
+
+                    </ul>
+                </li>
+                <li id="sub-dropdown" class="dropdown"><a href="#" class="dropdown-item dropdown-toggle" data-toggle="dropdown">Web/UI Desiging</a>
+                    <ul id="sub-dropdown-menu" class="dropdown-menu">
+                        <li><a href="" class="dropdown-item"> HTML </a></li>
+                        <li><a href="" class="dropdown-item">CSS</a></li>
+                        <li><a href="" class="dropdown-item">JAVA Script</a></li>
+                        <li><a href="" class="dropdown-item">Bootstrap</a></li>
+                        <li><a href="" class="dropdown-item">JQUERY</a></li>
+                        <li><a href="" class="dropdown-item">AJAX</a></li>
+                        <li><a href="" class="dropdown-item">Angular JS</a></li>
+                        <li><a href="" class="dropdown-item">React JS</a></li>
+
+                    </ul>
+                </li>
+                <li id="sub-dropdown" class="dropdown"><a href="#" class="dropdown-item dropdown-toggle" data-toggle="dropdown">Python Programing</a>
+                    <ul id="sub-dropdown-menu" class="dropdown-menu">
+                        <li>
+                            <a href="" class="dropdown-item">Basic Python Programimg
+                                </a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item">Data Science</a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item">Machine Learning</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li id="sub-dropdown" class="dropdown"><a href="#" class="dropdown-item dropdown-toggle" data-toggle="dropdown">Mobile App</a>
+                    <ul id="sub-dropdown-menu" class="dropdown-menu">
+                        <li><a href="" class="dropdown-item">Android</a></li>
+                        <li><a href="" class="dropdown-item">IOS</a></li>
+
+                    </ul>
+                </li>
+
+            </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a href="" class="nav-link text-light dropdown-toggle" data-toggle="dropdown" data-toggle="tab" data-target="#t4">ENTERPRISE</a>
+            <ul class="dropdown-menu">
+                <li><a href="" class="dropdown-item">Corporate Traning</a></li>
+                <li><a href="" class="dropdown-item">Product Traning</a></li>
+                <li><a href="" class="dropdown-item">College Traning</a></li>
+                <li><a href="" class="dropdown-item">Tableau Traning</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link text-light" data-toggle="tab" data-target="#t5">GALLERY</a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link text-light" data-toggle="tab" data-target="#t6">PLACEMENTS</a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link text-light" data-toggle="tab" data-target="#t7">CONTACT US</a>
+        </li>
+        <li>
+            <input class="form-control" type="search" placeholder="search here" aria-label="search">
+        </li>
+        <li>
+            <button class="btn btn-outline-success btn-light my-2 w-80 my-sm-0" type="submit"> <span class=" glyphicon glyphicon-search text-primary"></span>
+                </button>
+        </li>
+
+    </ul>
+
+
+    </div>
+
+    <div class="tab-content">
+        <div id="t1" class="tab-pane active">
+
+            <div id="demo" class="carousel slide" data-ride="carousel" style="padding-top: 0%;">
+                <ul class=" carousel-indicators ">
+                    <li data-target="#demo " data-slide-to="0 " class="active "></li>
+                    <li data-target="#demo " data-slide-to="1 "></li>
+                    <li data-target="#demo " data-slide-to="2 "></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+
+                        <img src="back4.jpg " alt="Los Angeles " width="100% " height="470 ">
+                        <div class="carousel-caption ">
+
+                            <marquee scrollamount=15>
+                                <h1 class="text-warning">PROGRAMMERS POINT</h3>
+                            </marquee>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="back.jpg " alt="Chicago " width="100% " height="470 ">
+                        <div class="carousel-caption ">
+                            <marquee scrollamount=15>
+                                <h1 class="text-warning">PROGRAMMERS POINT</h3>
+                            </marquee>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="back1.jpg " alt="New York " width="100% " height="470 ">
+                        <div class="carousel-caption ">
+                            <marquee scrollamount=15>
+                                <h1 class="text-warning">PROGRAMMERS POINT</h3>
+                            </marquee>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev " href="#demo " data-slide="prev ">
+                        <span class="carousel-control-prev-icon "></span>
+                    </a>
+                    <a class="carousel-control-next " href="#demo " data-slide="next ">
+                        <span class="carousel-control-next-icon "></span>
+                    </a>
+                </div>
+                <div class="text-center">
+                    <img src="wel1.jpg">
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-6 text-center">
+                        <img src="wel.jpg" height="500px" width="500px">
+                    </div>
+                    <div class="col-sm-6  ">
+                        <h2>Welcome To Programmers Point</h2>
+                        <p>
+                            Programmers Point is known basically for Programming and all kind of IT Training like Java Training in indore,<br>Ruby on Rails training, MCA training in indore. When it comes to practical and project based training, students
+                            prefer Programmers Point.Programmers Point is located in Bawarkua, Indore. Find complete information about Programmers Point school - Bawarkua, Indore including reviews, fee structure, admission form, contact, address, rating
+                            and more on Edugorilla.Programmers Point is known basically for Programming and all kind of IT Training like Java Training in indore,Ruby on Rails training, MCA training in indore. When it comes to practical and project based
+                            training, students prefer Programmers Point.Programmers Point is known basically for Programming and all kind of IT Training like Java Training in indore,Ruby on Rails training, MCA training in indore. When it comes to practical
+                            and project based training, students prefer Programmers Point.
+                            <div class="row">
+                                <div class="col-sm-6 text-dark">
+                                    <h4>Website</h4>
+                                    <h4>Industries</h4>
+                                    <h4> Company size</h4>
+                                    <h4>Headquarters</h3>
+                                        <h4>Type</h4>
+                                        <h4>Founded </h4>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p><a href="http://www.programmerspoint.in">http://www.programmerspoint.in</a></p>
+                                    <p>Information Technology and Services</p>
+                                    <p>11-50 employees</p>
+                                    <p>Indore, MP</p>
+                                    <p>Educational Institution</p>
+                                    <p>2012</p>
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+                <br><br><br>
+
+                <h1 class="text-danger" style="text-align: center;"><i>WE CAN HELP YOUR CARRER GROW</i></h1><br><br><br>
+
+                <div class="bg-info ">
+                    <div class="row ">
+                        <div class="col-sm-6 ">
+                            <img src="com.jpg" height="410px" width="620px">
+                        </div>
+                        <div class="col-sm-6">
+                            <h1 class="text-white text-center">APPLY NOW</h1>
+                            <form action="/action_page.php">
+                                <div class="form-group w-80">
+                                    <label for="email">NAME</label>
+                                    <input type="email" class="form-control" id="email" class="w-50">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">EMAIL</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd">MOBILE NUMBER</label>
+                                    <input type="password" class="form-control" id="pwd">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd">COURSE</label>
+                                    <select class="dropdown form-control">
+                                        <option> ADVANCE JAVA</option>
+                                        <option>PYTHON</option>
+                                        <option>ANGULAR</option>
+                                        <option>REACT</option>
+                                        <option>C PROGRAMMING</option>
+                                        <option>C++</option>
+                                        <option>CORE JAVA</option>
+                                        <option>SPRING BOOT</option>
+                                        <option>HIBERNATE</option>
+
+                                    </select>
+                                </div>
+
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <button type="submit" class="btn btn-danger ml-5">&nbsp;Submit</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <br><br><br>
+                <h1 class="text-center text-danger">
+                    <I>PROGRAMING LANGUAGES</I>
+                </h1> <br><br><br>
+                <div class="row ">
+                    <div class="col-sm-3 ">
+
+                        <div class="card" style="width:400px">
+                            <img class="card-img-top" src="c.jpg" height="200px" alt="Card image" style="width:300px">
+                            <div class="card-body">
+                                <h4 class="card-title">C++ Programing Language</h4>
+                                <p class="card-text">
+                                    C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". The language has expanded significantly over time,and modern C++ now has object-oriented, generic, and functional
+                                    features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software
+                                </p><br> <a href="#" class="btn btn-primary">More..</a>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-sm-3 ">
+                        <div class="card" style="width:400px">
+                            <img class="card-img-top" src="java.jpg" height="200px" alt="Card image" style="width:300px">
+                            <div class="card-body">
+                                <h4 class="card-title">JAVA Programing Language</h4>
+                                <p class="card-text">Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. java is a simple, high-lavel,secured, multithreaded,platform independent, object orianted
+                                    programing language It is a general-purpose programming language intended to let application developers write once, run anywhere, meaning that compiled Java code can run on all platforms that support Java without the
+                                    need for recompilation.</p>
+                                <a href="#" class="btn btn-primary">More..</a>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card" style="width:400px">
+                            <img class="card-img-top" src="py.jpg" height="200px" alt="Card image" style="width:300px">
+                            <div class="card-body">
+                                <h4 class="card-title">PYTHON Programing Language</h4>
+                                <p class="card-text">
+                                    Python is an interpreted, high-level and general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers
+                                    write clear, logical code for small and large-scale projects. Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach
+                                </p>
+                                <a href="#" class="btn btn-primary">More..</a>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card" style="width:400px">
+                            <img class="card-img-top" src="react.jpg" height="200px" alt="Card image" style="width:300px">
+                            <div class="card-body">
+                                <h4 class="card-title">REACT JS</h4>
+                                <p class="card-text">
+                                    React is an open-source, front end, JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a mobile applications. However, React is only
+                                    concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, and fully-fledged form solutions. React Router and Formik
+                                    are examples of such libraries respectively.</p>
+                                <a href="#" class="btn btn-primary">More..</a>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+
+                <div style="height: 500px; background-color: lightblue;">
+                    <div class="row text-center">
+                        <div class="col-sm-12">
+                            <h1>Programmers Point Institute</h1><br>
+                            <p>Copyright @ 2021 Programmers Point Coach Institute,LLC.ALL Rights Reserved</p><br>
+                            <p>Programmers Point school - Bawarkua, Indore</p>
+                            <span class="glyphicon glyphicon-linkedin text-primary"></span>
+                        </div>
+
+                    </div>
+                    <br><br>
+                    <div class="row ml-5">
+                        <div class="col-sm-4">
+                            <h1 class="display-4">Programs</h1><br>
+                            <p>Life Coach Traning & Certification</p>
+                            <p>Business Coach Traning & Certification</p>
+                            <p>Codependency Coach Traning & Certification</p>
+                            <p>Relationship Coach Traning & Certification</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <h1 class="display-4">About US</h1><br>
+                            <p>About Programers Point Coach Institute</p>
+                            <p>Instructors and Staff</p>
+                            <p>Accreditation / Affillitions/Recognition</p>
+                            <p>Contact Us</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <h1 class="display-4">Terms & Policies</h1>
+                            <p>Privacy Policy</p>
+                            <p>Refund Policy</p>
+                            <p>Terms and Condition for All Course Purchases</p>
+                            <p>Terms and Conditions for this Website</p>
+                            <p>Student Agreement</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white text-center" style="height: 60px;">
+                    <br>
+                    <a href="" class="text-light mt-1">www.progrmerspoint com</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="t2" class="tab-pane  fade">
+            <main>
+                <div class="container-fluid">
+                    <div class="carousel slide" id="main-carousel" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#main-carousel" data-slide-to="1"></li>
+                            <li data-target="#main-carousel" data-slide-to="2"></li>
+                            <li data-target="#main-carousel" data-slide-to="3"></li>
+                        </ol>
+
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block img-fluid" src="back1.jpg" alt="" height="50px" width="100%">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h1>ABOUT US</h1>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block img-fluid" src="back.jpg" alt="" height="300px" width="100%">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3>ABOUT US</h3>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                        <a href="#main-carousel" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only" aria-hidden="true">Prev</span>
+                        </a>
+                        <a href="#main-carousel" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only" aria-hidden="true">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h1 style="color: red; font-style: italic; text-align: center;">ABOUT PROGRAMMERS POINT</h1>
+                </div>
+                <div class="row  text-center" style="padding-top: 90px;">
+                    <div class=" col-sm-6 ">
+                        <img src="pp3.jpg " height="500px " width="400px " style="padding-top: 90px; ">
+                    </div>
+                    <div class="col-sm-6 mr-0 " style=" padding-top: 70px; background-color: wheat; ">
+                        <h1>About Programmers Point</h1>
+                        <p style="font-size: 20px; ">As said by great ones, “how you start predicts how you all lead”. The story behind our establishment goes back to the wonderful year 2011, a group of talented, young and experienced technocrats came together with a single motto
+                            to deliver nothing but excellence. Delivering excellence was a common virtue which was shared by everyone in Prestige Point, the founders, the mentors, the staff and the students. Due to our commitment, we have been able to
+                            attract the top-notch Information Technology giants since our inception. Our versatility was visible through the organizations that visited us in due course of time. From multinational IT vendors like Cognizant, TCS, Infosys,
+                            Wipro etc. to the specialists like Panasonic, Vedanta, L&T, Volkswagen etc. was associated with us by absorbing our students as a part of their employee base. Prestige Point lays a strong emphasis on training the students conceptually,
+                            we believe in doing things exceptionally well by going into their roots. We make our students fully equipped by exposing their brains to the skillful masters which sculpt them to absorb the critical concepts of technology.
+                            We provide our students an ambiance in which they feel it easy to focus on gaining the most from classroom. A healthy sense of competition is prevailed among our students so as to encourage them to take up the challenges.</p>
+                    </div>
+                </div>
+                <img src="hr.jpg" style="margin-left: 550px;">
+                <div style="height: 500px; background-color: lightblue;">
+                    <div class="row text-center">
+                        <div class="col-sm-12">
+                            <h1>Programmers Point Institute</h1><br>
+                            <p>Copyright @ 2021 Programmers Point Coach Institute,LLC.ALL Rights Reserved</p><br>
+                            <p>Programmers Point school - Bawarkua, Indore</p>
+                            <span class="glyphicon glyphicon-linkedin text-primary"></span>
+                        </div>
+
+                    </div>
+                    <br><br>
+                    <div class="row ml-5">
+                        <div class="col-sm-4">
+                            <h1 class="display-4">Programs</h1><br>
+                            <p>Life Coach Traning & Certification</p>
+                            <p>Business Coach Traning & Certification</p>
+                            <p>Codependency Coach Traning & Certification</p>
+                            <p>Relationship Coach Traning & Certification</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <h1 class="display-4">About US</h1><br>
+                            <p>About Programers Point Coach Institute</p>
+                            <p>Instructors and Staff</p>
+                            <p>Accreditation / Affillitions/Recognition</p>
+                            <p>Contact Us</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <h1 class="display-4">Terms & Policies</h1>
+                            <p>Privacy Policy</p>
+                            <p>Refund Policy</p>
+                            <p>Terms and Condition for All Course Purchases</p>
+                            <p>Terms and Conditions for this Website</p>
+                            <p>Student Agreement</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-dark text-center" style="height: 60px;">
+                    <br>
+                    <a href="" class="text-light mt-1">www.progrmerspoint com</a>
+                </div>
+            </main>
+        </div>
+
+        <div id="t3" class="tab-pane  fade">
+            <main>
+                <div class="container-fluid ">
+                    <div class="carousel slide " id="main-carousel " data-ride="carousel ">
+                        <ol class="carousel-indicators ">
+                            <li data-target="#main-carousel " data-slide-to="0 " class="active "></li>
+                            <li data-target="#main-carousel " data-slide-to="1 "></li>
+                            <li data-target="#main-carousel " data-slide-to="2 "></li>
+                            <li data-target="#main-carousel " data-slide-to="3 "></li>
+                        </ol>
+
+
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active ">
+                                <img class="d-block img-fluid " src="back.jpg " alt=" " height="50px " width="100% ">
+                                <div class="carousel-caption d-none d-md-block ">
+                                    <h1>SERVICES</h1>
+                                </div>
+                            </div>
+                            <div class="carousel-item ">
+                                <img class="d-block img-fluid " src="back1.jpg " alt=" " height="300px " width="100% ">
+                                <div class="carousel-caption d-none d-md-block ">
+                                    <h3>SERVICES</h3>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                        <a href="#main-carousel " class="carousel-control-prev " data-slide="prev ">
+                            <span class="carousel-control-prev-icon "></span>
+                            <span class="sr-only " aria-hidden="true ">Prev</span>
+                        </a>
+                        <a href="#main-carousel " class="carousel-control-next " data-slide="next ">
+                            <span class="carousel-control-next-icon "></span>
+                            <span class="sr-only " aria-hidden="true ">Next</span>
+                        </a>
+                    </div>
+                    <!-- /.carousel -->
+                </div>
+                <div class="container">
+                    <h1>EXCLUSIVE MOBILE APP & WEB DEVELOPMENT COMPANY</h1><br>
+                    <p>Our Complete spectrum of mobile app development and web solution help startups, small-medium enterprises, and organizations to create outcome-focusedsolutions with enhanced agility that help them to rapidly reshape, renew and build
+                        new capabilities for their business.Our differentiated and personalized services arm brands with the right tools, technologies and quality processes so as to maximize value from IT investments.</p>
+                </div>
+                <br><br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="it.jpg" height="200px" width="200px">
+                        </div>
+                        <div class="col-sm-9">
+                            <h1>IT Outsourcing</h1>
+                            <p>Drive Innovation and Business Transformation with the right strategic outsourcing partner. As a prominent strategic outsourcing provider, Adroit can help you chart your growth story with our best-in-class, end-to-end solutions
+                                and collaborative approach.</p>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <img src="com.jpg" alt="" height="400px" width="100%">
+                    </div>
+                </div>
+                <img src="hr.jpg" style="margin-left: 550px;">
+                <div style="height: 500px; background-color: lightblue;">
+                    <div class="row text-center">
+                        <div class="col-sm-12">
+                            <h1>Programmers Point Institute</h1><br>
+                            <p>Copyright @ 2021 Programmers Point Coach Institute,LLC.ALL Rights Reserved</p><br>
+                            <p>Programmers Point school - Bawarkua, Indore</p>
+                            <span class="glyphicon glyphicon-linkedin text-primary"></span>
+                        </div>
+
+                    </div>
+                    <br><br>
+                    <div class="row ml-5">
+                        <div class="col-sm-4">
+                            <h1 class="display-4">Programs</h1><br>
+                            <p>Life Coach Traning & Certification</p>
+                            <p>Business Coach Traning & Certification</p>
+                            <p>Codependency Coach Traning & Certification</p>
+                            <p>Relationship Coach Traning & Certification</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <h1 class="display-4">About US</h1><br>
+                            <p>About Programers Point Coach Institute</p>
+                            <p>Instructors and Staff</p>
+                            <p>Accreditation / Affillitions/Recognition</p>
+                            <p>Contact Us</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <h1 class="display-4">Terms & Policies</h1>
+                            <p>Privacy Policy</p>
+                            <p>Refund Policy</p>
+                            <p>Terms and Condition for All Course Purchases</p>
+                            <p>Terms and Conditions for this Website</p>
+                            <p>Student Agreement</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-dark text-center" style="height: 60px;">
+                    <br>
+                    <a href="" class="text-light mt-1">www.progrmerspoint com</a>
+                </div>
+            </main>
+
+        </div>
+        <div id="t5" class="tab-pane container fade">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="back3.jpg" height="350px" width="400px">
+                </div>
+                <div class="col-sm-4">
+                    <img src="back4.jpg" height="350px" width="400px">
+                </div>
+                <div class="col-sm-4">
+                    <img src="child1.jpg" height="350px" width="400px">
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="gel.jpg" height="350px" width="400px">
+                </div>
+                <div class="col-sm-4">
+                    <img src="pp.jpg" height="350px" width="400px">
+                </div>
+                <div class="col-sm-4">
+                    <img src="pp1.jpg" height="350px" width="400px">
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="java1.jpg" height="350px" width="400px">
+                </div>
+                <div class="col-sm-4">
+                    <img src="back7.jpg" height="350px" width="400px">
+                </div>
+                <div class="col-sm-4">
+                    <img src="slide2.jpg" height="350px" width="400px">
+                </div>
+            </div>
+            <img src="hr.jpg" style="margin-left: 350px;">
+            <div style="height: 500px; background-color: lightblue;">
+                <div class="row text-center">
+                    <div class="col-sm-12">
+                        <h1>Programmers Point Institute</h1><br>
+                        <p>Copyright @ 2021 Programmers Point Coach Institute,LLC.ALL Rights Reserved</p><br>
+                        <p>Programmers Point school - Bawarkua, Indore</p>
+                        <span class="glyphicon glyphicon-linkedin text-primary"></span>
+                    </div>
+
+                </div>
+                <br><br>
+                <div class="row ml-5">
+                    <div class="col-sm-4">
+                        <h1 class="display-4">Programs</h1><br>
+                        <p>Life Coach Traning & Certification</p>
+                        <p>Business Coach Traning & Certification</p>
+                        <p>Codependency Coach Traning & Certification</p>
+                        <p>Relationship Coach Traning & Certification</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h1 class="display-4">About US</h1><br>
+                        <p>About Programers Point Coach Institute</p>
+                        <p>Instructors and Staff</p>
+                        <p>Accreditation / Affillitions/Recognition</p>
+                        <p>Contact Us</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h1 class="display-4">Terms & Policies</h1>
+                        <p>Privacy Policy</p>
+                        <p>Refund Policy</p>
+                        <p>Terms and Condition for All Course Purchases</p>
+                        <p>Terms and Conditions for this Website</p>
+                        <p>Student Agreement</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-dark text-center" style="height: 60px;">
+                <br>
+                <a href="" class="text-light mt-1">www.progrmerspoint com</a>
+            </div>
+        </div>
+        <div id="t6" class="tab-pane container fade">
+            <h1 class="bg-warning text-light text-center">PLACEMENTS</h1>
+            <img src="all.jpg" height="500px" width="100%">
+            <img src="hr.jpg" style="margin-left: 350px;">
+            <div style="height: 500px; background-color: lightblue;">
+                <div class="row text-center">
+                    <div class="col-sm-12">
+                        <h1>Programmers Point Institute</h1><br>
+                        <p>Copyright @ 2021 Programmers Point Coach Institute,LLC.ALL Rights Reserved</p><br>
+                        <p>Programmers Point school - Bawarkua, Indore</p>
+                        <span class="glyphicon glyphicon-linkedin text-primary"></span>
+                    </div>
+
+                </div>
+                <br><br>
+                <div class="row ml-5">
+                    <div class="col-sm-4">
+                        <h1 class="display-4">Programs</h1><br>
+                        <p>Life Coach Traning & Certification</p>
+                        <p>Business Coach Traning & Certification</p>
+                        <p>Codependency Coach Traning & Certification</p>   
+                        <p>Relationship Coach Traning & Certification</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h1 class="display-4">About US</h1><br>
+                        <p>About Programers Point Coach Institute</p>
+                        <p>Instructors and Staff</p>
+                        <p>Accreditation / Affillitions/Recognition</p>
+                        <p>Contact Us</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h1 class="display-4">Terms & Policies</h1>
+                        <p>Privacy Policy</p>
+                        <p>Refund Policy</p>
+                        <p>Terms and Condition for All Course Purchases</p>
+                        <p>Terms and Conditions for this Website</p>
+                        <p>Student Agreement</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="t7" class="tab-pane container-fluid fade">
+            <h1 class="bg-dark text-light text-center mt-0 mb-0" style="height: 60px;">CONTACT US</h1>
+            <div class="bg-info ">
+                <div class="container">
+                    <div class="bg-warning">
+                        <h1 class="text-center">Enquiery</h1>
+                    </div>
+                    <form class="form-horizontal">
+                        <div class="row form-group  ">
+                            <div class="col-sm-1 ">
+                                <label for="Name " class="mr-md-2 ">Date</label>
+                            </div>
+                            <div class="col-sm-2 ">
+                                <input type="date" class="form-control " />
+                            </div>
+
+                            <div class="col-sm-1 ml-5">
+                                <label for="Name " class="mr-md-2 ">Form_No </label>
+                            </div>
+                            <div class="col-sm-2 ml-2">
+                                <input type="number " placeholder="form No " class="form-control" />
+                            </div>
+
+                            <div class="col-sm-2 ml-3">
+                                <label for="Name">Source </label>
+                            </div>
+                            <div class="col-sm-3 ml-3">
+                                <select name="dropdown" class="form-control">
+                                         <option>Own Website</option>
+                                            <option>Email</option>
+                                            <option>Phone</option>
+                                            <option>Walk-in</option>
+                                            <option>Letter</option>
+                                            <option>Fax</option>
+                                            <option>DesignMyNight</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                        <div class="row form-group ">
+                            <div class="col-sm-1 ">
+
+                                <label class="mr-md-3 " for="course ">Course</label>
+                            </div>
+                            <div class="col-sm-6 ">
+                                <div class="input-group mb-3">
+                                    <input type="text " placeholder="Course Enquired for " class="form-control " />
+                                    <!--<div class="input-group-append">
+                                            <span class="input-group-text bg-warning">+</span>
+                                        </div>-->
+                                    <span class="input-group-btn">
+                    
+                                         <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">+</button>
+                                         <div class="modal" id="myModal">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                
+                                
+                                                    <div class="modal-header">
+                                                        <h4 class="modal-title">Add New Course</h4>
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    </div>
+                                
+                                
+                                                    <div class="modal-body">
+                                                        <div class="container">
+                                                           <form>
+                                                               <div class="form-group row">
+                                                                    <div class="col-sm-4">
+                                                                        <label>Course Name</label>
+                                                                        </div>
+                                                                        <div class="col-sm-4">
+                                                                        <input type="text">
+                                                                    </div>
+                                                               </div>
+                                                               <div class="form-group row">
+                                                                <div class="col-sm-4">
+                                                                    <label>Fees</label>
+                                                                    </div>
+                                                                    <div class="col-sm-4">
+                                                                    <input type="number">
+                                                                </div>
+                                                           </div>
+                                                           </form>
+                                                        </div>
+                                                    </div>
+                                
+                                
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save Changes</button>
+                                                    </div>
+                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                     </span>
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-sm-2 ">
+                                <label class="mr-md-3 " for="course ">Batch Time</label>
+                            </div>
+                            <div class="col-sm-3 ">
+                                <input type="text " placeholder="Batch Time " class="form-control " />
+                            </div>
+
+                        </div>
+                        <div class="row form-group ">
+                            <div class="col-sm-1 ">
+                                <label>Title</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                &nbsp;&nbsp;&nbsp;<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="a" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                 Mr.
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="b">
+                                <label class="form-check-label" for="exampleRadios2">
+                                Ms.
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="c">
+                                <label class="form-check-label" for="exampleRadios3">
+                                Mrs.
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="row form-group ">
+                            <div class="col-sm-1 ">
+                                <label class="mr-md-3 "> Name</label>
+                            </div>
+                            <div class="col-sm-3 ">
+                                <input type="text " placeholder="First Name " class="form-control " />
+                            </div>
+                            <div class="col-sm-3 ">
+                                <input type="text " placeholder="Middle Name " class="form-control " />
+                            </div>
+                            <div class="col-sm-5 ">
+                                <input type="text " placeholder="Last Name " class="form-control " />
+                            </div>
+                        </div>
+                        <div class="row form-group ">
+                            <div class="col-sm-1 ">
+                                <label class="mr-md-3 "> Parent_Name</label>
+                            </div>
+                            <div class="col-sm-3 ">
+                                <input type="text " placeholder="Full Name " class="form-control " />
+                            </div>
+                            <div class="col-sm-3 ">
+                                <select name="dropdown " class="form-control ">
+                                   <option>Father</option>
+                                   <option>Mother</option>
+                               </select>
+                            </div>
+                            <div class="col-sm-5 ">
+                                <input type="text " placeholder="Occupation " class="form-control " />
+                            </div>
+                        </div>
+                        <div class="row form-group ">
+                            <div class="col-sm-1 ">
+                                <label class="mr-md-3 "> Contact</label>
+                            </div>
+                            <div class="col-sm-3 ">
+                                <input type="number " placeholder="Mobile No " class="form-control " />
+                            </div>
+                            <div class="col-sm-3 ">
+                                <input type="number " placeholder="Phone No " class="form-control " />
+                            </div>
+                            <div class="col-sm-5 ">
+                                <input type="email " placeholder="Email Id " class="form-control " />
+                            </div>
+                        </div>
+                        <div class="row form-group ">
+                            <div class="col-sm-1 ">
+                                <label>College</label>
+                            </div>
+
+                            <div class="col-sm-11 ">
+                                <div class="input-group mb-3">
+                                    <input type="text " placeholder="College Name " class="form-control " />
+                                    <span class="input-group-btn">
+                    
+                                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal1">+</button>
+                                        <div class="modal" id="myModal1">
+                                           <div class="modal-dialog modal-lg">
+                                               <div class="modal-content">
+                                                    <div class="modal-header">
+                                                       <h4 class="modal-title">Add New College</h4>
+                                                       <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                   </div>
+                               
+                               
+                                                   <div class="modal-body">
+                                                       <div class="container">
+                                                          <form class="form-horizontal">
+                                                              <div class="form-group row">
+                                                                   <div class="col-sm-3">
+                                                                       <label>College Name</label>
+                                                                       </div>
+                                                                       <div class="col-sm-8">
+                                                                       <input type="text" class="form-control" />
+                                                                   </div>
+                                                              </div>
+                                                              <div class="form-group row">
+                                                               <div class="col-sm-3">
+                                                                   <label>Short Code</label>
+                                                                </div>
+                                                                <div class="col-sm-3">
+                                                                   <input type="number" class="form-control" />
+                                                               </div>
+                                                               <div class="col-sm-1">
+                                                                <label>City</label>
+                                                             </div>
+                                                             <div class="col-sm-4">
+                                                                <input type="number" class="form-control" />
+                                                            </div>
+                                                          </div>
+                                                          </form>
+                                                       </div>
+                                                   </div>
+                               
+                               
+                                                   <div class="modal-footer">
+                                                       <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                       <button type="button" class="btn btn-primary">Save Changes</button>
+                                                   </div>
+                               
+                                               </div>
+                                           </div>
+                                       </div>
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row mt-3 form-group ">
+                            <div class="col-sm-1 ">
+                                <label class="mr-md-3 ">Education</label>
+                            </div>
+                            <div class="col-sm-5 ">
+                                <input type="email " placeholder="Course Study in College " class="form-control " />
+                            </div>
+                            <div class="col-sm-3 ">
+                                <div class="form-group ">
+                                    <input type="email " placeholder="Branch " class="form-control " />
+                                </div>
+                            </div>
+                            <div class="col-sm-3 ">
+                                <div class="form-group ">
+                                    <div class="form-check form-check-inline">
+                                        &nbsp;&nbsp;&nbsp;<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="a" checked>
+                                        <label class="form-check-label" for="exampleRadios1">
+                                        Semester
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="b">
+                                        <label class="form-check-label" for="exampleRadios2">
+                                        Year
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row form-group ">
+                            <div class="col-sm-1 ">
+                                <label>GST</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                &nbsp;&nbsp;&nbsp;<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="a" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                 GST Applicable
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="b">
+                                <label class="form-check-label" for="exampleRadios2">
+                                No GST
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row form-group ">
+                            <div class="col-sm-1 ">
+                                <label for="Name " class="mr-md-2 ">Fess </label>
+                            </div>
+                            <div class="col-sm-2 ">
+                                <input type="number " placeholder="fees " class="form-control " />
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" required />GST included
+                        </label>
+
+                            </div>
+                            <div class="col-sm-1 ">
+                                <label for="Name " class="mr-md-2 ">GST(18%)</label>
+                            </div>
+                            <div class="col-sm-1 ">
+                                <input type=" number " placeholder="GST " class="form-control " />
+                            </div>
+                            <div class="col-sm-2 ">
+                                <label for="Name ">Gross(Payable) </label>
+                            </div>
+                            <div class="col-sm-3 ">
+                                <input type=" number " placeholder="Total Fees " class="form-control bg-danger text-light " />
+                            </div>
+                        </div>
+                        <div class="row form-group ">
+                            <div class="col-sm-1 ">
+                                <label>Reference</label>
+                            </div>
+
+                            <div class="col-sm-11 ">
+                                <input type="text " placeholder="How to know about US/Refrence By " class="form-control " />
+                            </div>
+
+                        </div>
+                        <div class="row form-group ">
+                            <div class="col-sm-1 ">
+                                <label>Remarks</label>
+                            </div>
+
+                            <div class="col-sm-11 ">
+                                <input type="text " placeholder="Remarks " class="form-control " />
+                            </div>
+
+                        </div>
+                        <div class="row ">
+                            <div class="col-sm-5 ">
+
+                            </div>
+                            <div class="col-sm-7 ">
+                                <button type="submit " class="btn btn-success ">Submit</button>
+                            </div>
+                        </div>
+                </div>
+
+                <div style="height: 500px; background-color: black; color: white;">
+                    <div class="row text-center">
+                        <div class="col-sm-12">
+                            <h1>Programmers Point Institute</h1><br>
+                            <p>Copyright @ 2021 Programmers Point Coach Institute,LLC.ALL Rights Reserved</p><br>
+                            <p>Programmers Point school - Bawarkua, Indore</p>
+                            <span class="glyphicon glyphicon-linkedin text-primary"></span>
+                        </div>
+
+                    </div>
+                    <br><br>
+                    <div class="row ml-5">
+                        <div class="col-sm-4">
+                            <h1 class="display-4">Programs</h1><br>
+                            <p>Life Coach Traning & Certification</p>
+                            <p>Business Coach Traning & Certification</p>
+                            <p>Codependency Coach Traning & Certification</p>
+                            <p>Relationship Coach Traning & Certification</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <h1 class="display-4">About US</h1><br>
+                            <p>About Programers Point Coach Institute</p>
+                            <p>Instructors and Staff</p>
+                            <p>Accreditation / Affillitions/Recognition</p>
+                            <p>Contact Us</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <h1 class="display-4">Terms & Policies</h1>
+                            <p>Privacy Policy</p>
+                            <p>Refund Policy</p>
+                            <p>Terms and Condition for All Course Purchases</p>
+                            <p>Terms and Conditions for this Website</p>
+                            <p>Student Agreement</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+</body>
+
+</html>
